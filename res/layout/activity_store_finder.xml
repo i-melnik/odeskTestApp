@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
@@ -26,8 +26,16 @@
 	    
 	</LinearLayout>
     
-    <com.google.android.gms.maps.MapView android:id="@+id/mapview"
-        android:layout_width="fill_parent" 
-        android:layout_height="fill_parent" />
+    <fragment
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          class="com.google.android.gms.maps.SupportMapFragment"
+          /><!-- android:name="com.google.android.gms.maps.MapFragment" -->
+          
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
 
-</LinearLayout>
+</FrameLayout>

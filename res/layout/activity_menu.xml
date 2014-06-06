@@ -4,6 +4,7 @@
         android:layout_height="match_parent"
         android:id="@android:id/list"
         android:layout_gravity="center_vertical"
+        android:cacheColorHint="#000000"
         android:textAlignment="center"
         android:background="@color/dark_blue"
         android:layout_weight="1" />

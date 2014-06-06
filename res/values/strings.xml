@@ -12,6 +12,7 @@
     <string name="menu_faqs">Faqs</string>
     <string name="menu_store_finder">Store Finder</string>
     <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_music">Music</string>
 
     <string-array name="menu_array">
         <item>@string/menu_home</item>
@@ -22,6 +23,7 @@
         <item>@string/menu_faqs</item>
         <item>@string/menu_store_finder</item>
         <item>@string/menu_contact_us</item>
+        <item>@string/menu_music</item>
     </string-array>
     
     <string name="profile_text">CallSat was established in 1999 in Cyprus and is an alternative in the telecommunication sector,
